@@ -8,10 +8,14 @@ export const getGlobalData = () => {
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
+  const year = process.env.BLOG_FOOTER_YEAR
+    ? decodeURI(process.env.BLOG_FOOTER_YEAR)
+    : '2025.';
 
   return {
     name,
     blogTitle,
     footerText,
+    year,
   };
 };
