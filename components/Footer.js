@@ -81,7 +81,7 @@ export default function Footer({ copyrightText, year}) {
   return (
     <footer className="flex flex-col items-center py-16">
       <p className="mb-3 font-bold uppercase dark:text-white opacity-60">
-        {copyrightText +  "    " + year}
+        {copyrightText + year}
       </p>
       <ThemeSwitcher />
     </footer>
