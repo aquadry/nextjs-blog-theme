@@ -80,8 +80,8 @@ const ThemeSwitcher = () => {
 export default function Footer({ copyrightText, year}) {
   return (
     <footer className="flex flex-col items-center py-16">
-      <div class="mx-8">{copyrightText}</div>
-      <div class="mx-8">{year}</div>
+      <p class="mx-8">{copyrightText}</p>
+      <p class="mx-8">{year}</p>
       <p className="mb-3 font-bold uppercase dark:text-white mx-8 opacity-60">
         {copyrightText + year}
       </p>
