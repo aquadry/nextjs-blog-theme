@@ -10,7 +10,7 @@ export const getGlobalData = () => {
     : 'All rights reserved';
   const year = process.env.BLOG_FOOTER_YEAR
     ? decodeURI(process.env.BLOG_FOOTER_YEAR)
-    : '  2025.';
+    : ' &nbs&nbs&nbs&nbs 2025.';
 
   return {
     name,
