@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Next.js Blog Theme';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'All rights reserved';
   const year = process.env.BLOG_FOOTER_YEAR
     ? decodeURI(process.env.BLOG_FOOTER_YEAR)
     : '2025.';
