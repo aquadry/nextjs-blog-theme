@@ -77,6 +77,7 @@ const ThemeSwitcher = () => {
   );
 };
 
+/*
 export default function Footer({ copyrightText, year}) {
   return (
     <footer className="flex flex-col items-center py-16">
@@ -86,6 +87,22 @@ export default function Footer({ copyrightText, year}) {
       <p className="mb-3 font-bold uppercase dark:text-white opacity-60">
         {year}
       </p>
+      <ThemeSwitcher />
+    </footer>
+  );
+}
+  */
+export default function Footer({ copyrightText, year }) {
+  return (
+    <footer className="flex flex-col items-center py-16">
+      <div className="flex flex-row items-center space-x-1 mb-3">
+        <p className="font-bold uppercase dark:text-white opacity-60">
+          {copyrightText}
+        </p>
+        <p className="font-bold uppercase dark:text-white opacity-60">
+          {year}
+        </p>
+      </div>
       <ThemeSwitcher />
     </footer>
   );
