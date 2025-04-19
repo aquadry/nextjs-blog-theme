@@ -95,7 +95,7 @@ export default function Footer({ copyrightText, year}) {
 export default function Footer({ copyrightText, year }) {
   return (
     <footer className="flex flex-col items-center py-16">
-      <div className="flex flex-row items-center space-x-1 mb-3">
+      <div className="flex flex-row items-center space-x-4 mb-3">
         <p className="font-bold uppercase dark:text-white opacity-60">
           {copyrightText}
         </p>
